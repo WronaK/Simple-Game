@@ -29,7 +29,7 @@ public class GameWindow extends JFrame{
 
         JLabel map = new JLabel();
         try {
-            BufferedImage image = ImageIO.read(new File("mapa.jpg"));
+            BufferedImage image = ImageIO.read(new File("image/mapa.jpg"));
             map.setIcon(new ImageIcon(image));
         } catch (IOException e) {
             e.printStackTrace();
